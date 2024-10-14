@@ -1,0 +1,20 @@
+{
+  "name": "sistematemplate_clubfullstack",
+  "version": "1.0.0",
+  "description": "Playlist https://www.youtube.com/playlist?list=PLyugqHiq-SKfq12sOO0qJVxxoSOstJ1MF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasSafeno/sistemaTemplate_clubfullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasSafeno/sistemaTemplate_clubfullstack/issues"
+  },
+  "homepage": "https://github.com/LucasSafeno/sistemaTemplate_clubfullstack#readme"
+}

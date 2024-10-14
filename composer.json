@@ -1,0 +1,21 @@
+{
+    "name": "root/sistema-template_clubfullstack",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "scripts": {
+        "server": "php -S 191.243.161.184:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Lucas Safeno",
+            "email": "lugnorio@gmail.com"
+        }
+    ],
+    "require": {},
+    "config": {
+        "process-timeout": 0
+    }
+}
