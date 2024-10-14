@@ -1,10 +1,11 @@
-<?php 
+<?php
 namespace app\controllers;
 
-class HomeController{
+class LoginController{
     public function index()
     {
-        dd('index HomeController');
+        dd('index loginController');
     }
 }
 
+?>

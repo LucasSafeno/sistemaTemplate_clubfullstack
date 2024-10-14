@@ -1,4 +1,7 @@
 <?php
+session_start();
 
-echo 'Home';
+require("../vendor/autoload.php");
 
+
+routerExecute();

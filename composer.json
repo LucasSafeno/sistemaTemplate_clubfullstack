@@ -2,8 +2,11 @@
     "name": "root/sistema-template_clubfullstack",
     "autoload": {
         "psr-4": {
-            "app\\": "app"
-        }
+            "app\\": "app/"
+        },
+        "files": [
+            "app/framework/helpers/helpers.php"
+        ]
     },
     "scripts": {
         "server": "php -S 191.243.161.184:8000 -t public"
@@ -14,7 +17,9 @@
             "email": "lugnorio@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/var-dumper": "^7.1"
+    },
     "config": {
         "process-timeout": 0
     }
