@@ -6,6 +6,11 @@ class LoginController{
     {
         dd('index loginController');
     }
+
+    public function store()
+    {
+        dd('Login Store');
+    }
 }
 
 ?>
