@@ -1,5 +1,6 @@
 <?php 
 
+use app\framework\classes\Engine;
 use app\framework\classes\Router;
 
 function path()
@@ -19,6 +20,18 @@ function routerExecute()
         $routes = require("../app/routes/routes.php");
         $router = new Router;
         $router->execute($routes);
+    }catch(\Throwable $th){
+        dd($th->getMessage());
+    }
+}
+
+
+function view(string $view, array $data = []){
+    try{
+        
+        $engine = new Engine;
+        echo $engine->render ($view, $data);
+
     }catch(\Throwable $th){
         dd($th->getMessage());
     }
