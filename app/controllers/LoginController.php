@@ -38,6 +38,8 @@ class LoginController{
             dd('Usuário/senha inválidos, senha inválida');
         }
 
+        
+
         $_SESSION['logged'] = true;
         unset($userFound->password);
         $_SESSION['user'] = $userFound;
