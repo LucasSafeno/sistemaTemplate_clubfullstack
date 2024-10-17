@@ -12,5 +12,3 @@ class LoginController{
         dd('Login Store');
     }
 }
-
-?>

@@ -5,6 +5,9 @@ return [
         '/' => 'HomeController@index',
         '/login' => 'LoginController@index'
     ],
+
+
+    
     'post'=>[
         '/login' => 'LoginController@store'
     ]
