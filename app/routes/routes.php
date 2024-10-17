@@ -3,7 +3,8 @@
 return [
     'get' =>[
         '/' => 'HomeController@index',
-        '/login' => 'LoginController@index'
+        '/login' => 'LoginController@index',
+        '/dashboard' => 'DashboradController@index'
     ],
 
 

@@ -12,7 +12,7 @@ class Connection
     {
         if(empty(self::$connection))
         {
-            self::$connection = new PDO("mysql:host={$_ENV['DATABASE_HOST']};dbname={$_ENV['DATABASE_NAME']}","{$_ENV['DATABASE_NAME']}", "{$_ENV['DATABASE_PASSWORD']}",[
+            self::$connection = new PDO("mysql:host=localhost;dbname=sistema_templates","root", "root",[
                 PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
             ]);
         }
