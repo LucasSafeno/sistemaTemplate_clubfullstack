@@ -4,10 +4,17 @@ namespace app\framework\classes;
 
 class Engine
 {
+    private ?string $layout;
+    private string $content;
 
-    public function teste()
+    private function load()
     {
-        return 'teste';
+
+    }
+
+    private function extends(string $view, array $data = [])
+    {
+        dd('chegou aqui');
     }
 
     public function render(string $view, array $data)

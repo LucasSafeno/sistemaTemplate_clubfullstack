@@ -6,7 +6,9 @@ class DashboradController
 {
     public function index()
     {
-        dd('Index da dashborad');
+        view('dashboard_home', [
+            'title' => 'Dashboard'
+        ]);
     }
 
 }
